@@ -1,0 +1,1 @@
+curl -H "token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkYXRhIjoiNjNlYTQxNDg0NDJmOTYzNTA0YTgwM2IyIiwiZXhwIjoxNjc2MzgzMTA5MzI5LCJpYXQiOjE2NzYyOTY3MDl9.k7ayjPwa7ruLS-f9jEJYe8AxxWmtgIbW3FWvnMmTFFM" http://127.0.0.1:3001/api/courses
