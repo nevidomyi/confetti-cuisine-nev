@@ -23,7 +23,10 @@ mongoose.Promise = global.Promise;
 mongoose.connect(
   process.env.MONGODB_URI ||
   "mongodb://127.0.0.1:27017/recipe_db",
-  { useNewUrlParser: true }
+  { 
+    useNewUrlParser: true,
+    useUnifiedTopology: true,
+  }
 );
 mongoose.set("useCreateIndex", true);
 
