@@ -257,3 +257,12 @@ button[type="submit"] {
   color: #fff;
   background: #ee3114;
 }
+
+.buttons-group {
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  align-items: center;
+  margin-top: 40px;
+}
